@@ -1,6 +1,9 @@
-// function Template() {
-//   return true;
-// }
-//
-//
-// exports.templateModule = Template;
+function Git() {
+}
+
+Git.prototype.gitSearch = function() {
+  console.log("test");
+};
+
+
+exports.gitModule = Git;
