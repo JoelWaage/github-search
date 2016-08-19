@@ -1,0 +1,22 @@
+{
+  "name": "github-search",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/JoelWaage/github-search",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.14.1"
+  },
+  "authors": [
+    "Joel <joeltwaage@gmail.com>"
+  ]
+}
