@@ -1,8 +1,7 @@
 var Git = require('./../js/GitSearch.js').gitModule;
-// var apiKey = require('./../.env').apiKey;
 var input = null;
-//
-//
+
+
 $(document).ready(function() {
   $('.search').submit(function(event) {
     event.preventDefault();
