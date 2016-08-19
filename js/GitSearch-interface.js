@@ -1,13 +1,12 @@
 var Git = require('./../js/GitSearch.js').gitModule;
-var input = null;
 
 $(document).ready(function() {
+  var currentGitObject = new Git();
   $('.search').submit(function(event) {
     event.preventDefault();
-    input = $('#search-user').val();
+    var input = $('#search-user').val();
     $('#search-user').val("");
-    var currentGitObject = new Git();
     currentGitObject.gitSearch(input);
-    $('.displayResult').text("Displaying");
+    console.log(input);
   });
 });
