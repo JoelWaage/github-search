@@ -10,14 +10,19 @@
   </head>
   <body>
     <div class="container">
-      <h1>Search Github</h1>
-      <form class="search">
-        <label for="user-search">Enter github User Name:</label>
-        <input type="text" id="search-user" placeholder="github User Name">
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      <div class="instructions">
+        <p>Enter a username to see a list of repository names, descriptions and URLs</p>
+      </div>
+      <div class="jumbotron">
+        <h1>Search Github</h1>
+        <form class="search">
+          <label for="user-search">Enter github User Name:</label>
+          <input type="text" id="search-user" placeholder="github User Name">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <br>
       <div><ul class="displayName"></ul></div>
-      <div><ul class="displayDescription"></ul></div>
     </div>
   </body>
 </html>
