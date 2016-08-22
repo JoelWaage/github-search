@@ -11,6 +11,8 @@ _Enter a GitHub username, and the site will return a list of the user's public r
 ## Setup/Installation Requirements
 
 1. Clone File from https://github.com/JoelWaage/band-tracker
+2. Create .env file
+3. In .env: exports.apiKey = "API-KEY";
 2. From the top directory in PowerShell:
   1. Run npm cache clear
   2. Run npm install
